@@ -1,0 +1,20 @@
+1.ตั้งค่าเชื่อมต่อฐานข้อมูล ที่ี
+  " ที่ตั้งไฟล์/risk2/models/config.inc.php"
+  	$hostname="127.0.0.1"; ชื่อ hostname
+	$user = "root";        username
+	$pwd = "123456";       password
+	$db = "db_risk";       ชื่อ ฐานข้อมูล 
+	
+2. รหัสตั้งต้น 
+ADMIN 
+USERNAME : admin
+PASSWORD : 123456
+-------------------------------
+USER
+USERNAME : user
+PASSWORD : 123456
+-------------------------------
+SUPERUSER
+USERNAME : superuser
+PASSWORD : 123456
+-------------------------------
