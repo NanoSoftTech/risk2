@@ -23,9 +23,6 @@
                             <a href="?page=<?php echo sha1('sub_department')?>"><i class="fa fa-edit fa-fw"></i> จัดการ แผนกย่อย</a>
                         </li>
                         <li>
-                            <a href="?page=<?php echo sha1('place')?>"><i class="fa fa-edit fa-fw"></i> จัดการ สถานที่เกิดเหตุ</a>
-                        </li>
-                        <li>
                             <a href="?page=<?php echo sha1('level')?>"><i class="fa fa-edit fa-fw"></i> จัดการ ระดับความเสี่ยง</a>
                         </li>
                         <li>

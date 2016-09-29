@@ -22,10 +22,11 @@
                             </thead>
                             <tbody>
                                 <?php
-                                $sqls = " SELECT r.*,s.sta_name "
+                               $sqls = " SELECT r.*,s.sta_name "
                                         . " FROM tb_risk r "
                                         . " left outer join sys_status_risk s ON s.sta_id = r.risk_status "
-                                        . " order by r.risk_datetime,r.lv_code ";
+                                        . " where r.risk_status < 4"
+                                        . " order by r.risk_status desc";
                                 $results = mysql_query($sqls)or die($sqls);
                                 while ($record = mysql_fetch_array($results)) {
                     echo "<tr class= 'odd gradeX'>
