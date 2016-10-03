@@ -39,3 +39,5 @@ docs/.jekyll-metadata
 # Folders to ignore
 bower_components
 node_modules
+/vendor/highcharts/exporting-server/java/highcharts-export/highcharts-export-convert/target/
+/vendor/highcharts/exporting-server/java/highcharts-export/highcharts-export-web/target/

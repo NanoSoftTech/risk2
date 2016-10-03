@@ -59,13 +59,13 @@
                             <tbody>
                                 <?php
                             $sqls = " SELECT 	r.*,c.cat_name,ct.sub_name as csub_name,d.dep_name,ds.sub_name as dsub_name,
-                            p.pl_name,l.lv_name,l.lv_code,u.user_fname,t.sta_name
+                            l.lv_name,l.lv_code,u.user_fname,t.sta_name
                                         from tb_risk r
                                         LEFT OUTER JOIN sys_sub_category ct ON ct.sub_cat_id = r.sub_cat_id
                                         LEFT OUTER JOIN sys_category c ON c.cat_id = ct.cat_id
                                         LEFT OUTER JOIN sys_sub_department ds ON ds.sub_dep_id = r.sub_dep_id
                                         LEFT OUTER JOIN sys_department d ON d.dep_id = ds.dep_id
-                                        LEFT OUTER JOIN sys_place p ON p.pl_id = r.pl_id
+                                        
                                         LEFT OUTER JOIN sys_level_risk l ON l.lv_id = r.lv_id
                                         LEFT OUTER JOIN sys_status_risk t ON t.sta_id = r.risk_status
                                         LEFT OUTER JOIN tb_user u ON u.user_id = r.user_id "

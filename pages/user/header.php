@@ -57,6 +57,11 @@ if(!isset($_SESSION['username'])){
 <script src="../../vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
 
 <script src="../../vendor/tinymce/js/tinymce/tinymce.min.js"></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="../../vendor/raphael/raphael.min.js" type="text/javascript"></script>
+<script src="../../vendor/morrisjs/morris.min.js" type="text/javascript"></script>
+
   <script>
           tinymce.init({
               selector: "textarea,#imgedit",

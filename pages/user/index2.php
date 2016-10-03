@@ -60,6 +60,16 @@ if (isset($_GET['page'])) {
                 case sha1('rpt_004'):
                     include "rpt_004.php";
                     break;
+
+                case sha1('rpt_005'):
+                    include "rpt_005.php";
+                    break; 
+                case sha1('rpt_006'):
+                    include "rpt_006.php";
+                    break;
+                case sha1('rpt_007'):
+                    include "rpt_007.php";
+                    break;
                 
                 case sha1('password'):
                     include "password.php";

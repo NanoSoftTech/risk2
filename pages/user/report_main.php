@@ -32,8 +32,12 @@
                 <div class="list-group list-cust"><h3>
         <a href="?page=<?php echo sha1('rpt_001')?>" class="list-group-item"><i class="fa fa-file-o"></i> รายงานความเสี่ยงประจำเดือน</a>
         <a href="?page=<?php echo sha1('rpt_002')?>" class="list-group-item"><i class="fa fa-file-o"></i> รายงานความเสี่ยงประจำเดือน แยกสถานะ</a>
+        <a href="?page=<?php echo sha1('rpt_005')?>" class="list-group-item"><i class="fa fa-bar-chart"></i> กราฟรายงาน แยกสถานะ</a>
         <a href="?page=<?php echo sha1('rpt_003')?>" class="list-group-item"><i class="fa fa-file-o"></i> รายงานความเสี่ยงประจำเดือน แยกฝ่าย</a>
+        <a href="?page=<?php echo sha1('rpt_006')?>" class="list-group-item"><i class="fa fa-bar-chart"></i> กราฟรายงาน แยกฝ่าย</a>
         <a href="?page=<?php echo sha1('rpt_004')?>" class="list-group-item"><i class="fa fa-file-o"></i> รายงานความเสี่ยงประจำเดือน แยกหมวดความเสี่ยง</a>
+        <a href="?page=<?php echo sha1('rpt_007')?>" class="list-group-item"><i class="fa fa-bar-chart"></i> กราฟรายงาน แยกหมวดความเสี่ยง</a>
+
                 
                 </h3></div>
 
