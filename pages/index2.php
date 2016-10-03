@@ -3,7 +3,7 @@
 if (isset($_GET['page'])) {
             switch ($_GET['page']) {
                 case sha1('main'):
-                    include "../pages/main.php";
+                    include "../pages/login.php";
                     break;
              
                 case sha1('register'):
@@ -22,6 +22,6 @@ if (isset($_GET['page'])) {
     }
     
 } else {
-    include "../pages/main.php";
+    include "../pages/login.php";
 }
 ?>

@@ -31,6 +31,9 @@
                         <li>
                             <a href="?page=<?php echo sha1('optimize')?>"><i class="fa fa-edit fa-fw"></i> ซ่อมแซม ตาราง</a>
                         </li>
+						<li>
+                            <a href="../../controller/mybackup/index.php" target="_blank"><i class="fa fa-edit fa-fw"></i>MyBackupPro</a>
+                        </li>
                         <li>
                             <a href="?page=<?php echo sha1('logout')?>"><i class="fa fa-lock fa-fw"></i> ออกจากระบบ</a>
                         </li>

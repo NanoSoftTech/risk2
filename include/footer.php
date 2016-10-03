@@ -27,8 +27,7 @@
         $('#dataTables-example').DataTable({
             responsive: true,
             autoFill : true,
-            dom: 'Bfrtip',
-            buttons: ['copyFlash','csvFlash','excelFlash','pdfFlash']
+            dom: 'Bfrtip'
         });
     });
     </script>

@@ -179,6 +179,7 @@ if (isset($_GET['page'])) {
                 case sha1('delete_risk'):
                     include "../../controller/admin/delete_risk.php";
                     break;
+				
                 
                 case sha1('logout'):
                     include "../../controller/admin/logout.php";

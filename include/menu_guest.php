@@ -2,10 +2,10 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="?page=<?php echo sha1('main')?>"><i class="fa fa-dashboard fa-fw"></i> เมนูระบบ</a>
+                            <a href="?page=<?php echo sha1('login')?>"><i class="fa fa-dashboard fa-fw"></i> เมนูระบบ</a>
                         </li>
                         <li>
-                            <a href="?page=<?php echo sha1('list_risk')?>"><i class="fa fa-bar-chart-o fa-fw"></i> รายการบันทึกความเสี่ยง</a>
+                            <a href="?page=<?php echo sha1('login')?>"><i class="fa fa-bar-chart-o fa-fw"></i> รายการบันทึกความเสี่ยง</a>
                         </li>
                         <li>
                             <a href="?page=<?php echo sha1('login')?>"><i class="fa fa-table fa-fw"></i> สรุปรายการความเสี่ยง</a>

@@ -57,14 +57,14 @@ include_once "../models/func_class.php";
           });
   </script>
   
-  <script src="../vendor/jquery/jquery-1.12.3.js" type="text/javascript"></script>
-  <link href="../vendor/datatables-buttons/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css"/>
-  <link href="../vendor/datatables-buttons/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css"/>
+    <script src="../vendor/jquery/jquery-1.12.3.js" type="text/javascript"></script>
+    <link href="../vendor/datatables-buttons/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css"/>
+        
+    <link href="../vendor/datatables-buttons/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css"/>
     <script src="../vendor/datatables-buttons/js/buttons.bootstrap4.min.js" type="text/javascript"></script>
     <script src="../vendor/datatables-buttons/js/buttons.jqueryui.min.js" type="text/javascript"></script>
     <script src="../vendor/datatables-buttons/js/dataTables.buttons.min.js" type="text/javascript"></script>
     <script src="../vendor/datatables-buttons/js/buttons.html5.min.js" type="text/javascript"></script>
-    <script src="../vendor/datatables-buttons/js/buttons.flash.min.js" type="text/javascript"></script>
     
 </head>
 
