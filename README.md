@@ -11,7 +11,7 @@
 To get started, check out <http://getbootstrap.com>!
 
 UPDATE NOTE
-- update 04102016 11:33 
+- update 03102016 11:33 
     UPDATE Print Chart if select data
 
 - update 04102016 09:30  
