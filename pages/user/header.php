@@ -57,8 +57,8 @@ if(!isset($_SESSION['username'])){
 <script src="../../vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
 
 <script src="../../vendor/tinymce/js/tinymce/tinymce.min.js"></script>
+<link href="../../vendor/fonTH/fonTH.css" rel="stylesheet" type="text/css"/>
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
 <script src="../../vendor/raphael/raphael.min.js" type="text/javascript"></script>
 <script src="../../vendor/morrisjs/morris.min.js" type="text/javascript"></script>
 
@@ -70,9 +70,10 @@ if(!isset($_SESSION['username'])){
                   "searchreplace visualblocks code fullscreen",
                   "insertdatetime media table contextmenu paste image"
               ],
+             /*font_formats: 'TH_Sarabun=THSarabun,sans-serif;TH_SarabunIT9=THSarabunIT9,sans-serif;TH_NiramitIT9=THNiramitIT9,sans-serif;\n\
+                Angsana New=angsa;Angsana UPC=angsau;',*/
               paste_data_images: true,
-              //menubar: "insert edit ",
-              toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify |\n\
+              toolbar: "insertfile undo redo | styleselect fontsizeselect | bold italic  | alignleft aligncenter alignright alignjustify |\n\
                         bullist numlist outdent indent | link image paste"
           });
   </script>

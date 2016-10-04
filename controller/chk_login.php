@@ -4,6 +4,7 @@ session_start();
 include_once "../models/config.inc.php"; 
 include_once "../models/func_class.php";
 
+if(isset($_SESSION['username'])){ session_destroy() ;}
 $user_login = sha1($_POST['username']);
 $user_pass = sha1($_POST['password']) ;
 if ($login = sha1('login')) {
