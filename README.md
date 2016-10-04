@@ -11,12 +11,15 @@
 To get started, check out <http://getbootstrap.com>!
 
 UPDATE NOTE
-- update 03102016 20:42  
+- update 03102016 11:33 
+    UPDATE Print Chart if select data
+
+- update 04102016 09:30  
     FIX_1 chk_login fix remove session 
     FIX_2 update text_area 
     FIX_3 update font thai
 
-- update 02102016 20:42  
+- update 03102016 20:42  
     FIX_1 report
     FIX_2 new bar_chert
 
