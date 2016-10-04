@@ -97,6 +97,11 @@ $text_data = "";
     <div class="col-lg-12"> 
         <div class="panel-body">    
             <div id="bar-example"></div>
+<?php
+ if(isset($_POST['date_start']) && isset($_POST['date_end'])){         
+           echo  "<button id='print' >PDF</button>";
+ }
+ ?>
         </div>
     </div>
 </div>
@@ -110,6 +115,13 @@ Morris.Bar({
   ykeys: ['Y',],
   labels: ['สถานะ',]
 });
+$('#print').click(function () {
+    print();
+});
+// This will render SVG only as PDF and download
+function printMe() {
+    xepOnline.Formatter.Format('bar-example', {render:'download', srctype:'svg'});
+}
 </script>
 
 
