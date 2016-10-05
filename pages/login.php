@@ -27,5 +27,28 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+
+                <div class="col-md-8 col-md-offset-2">
+                    <div class=table-responsive>
+                        <table class="table table-bordered table-striped"> 
+                        <thead> 
+                            <tr> 
+                                <td></td> 
+                                <th>Chrome</th> 
+                                <th>Firefox</th>
+                                <th>Internet Explorer</th> 
+                            </tr> 
+                        </thead> 
+                        <tbody>  
+                            <tr> 
+                                <th scope=row>Windows</th> 
+                                <td class=text-success><span class="glyphicon glyphicon-ok" aria-hidden=true></span> Supported</td> 
+                                <td class=text-success><span class="glyphicon glyphicon-ok" aria-hidden=true></span> Supported</td> 
+                                <td class=text-danger><span class="glyphicon glyphicon-remove" aria-hidden=true></span> Not supported</td> 
+                            </tr> 
+                        </tbody> 
+                        </table> 
+                    </div>
+                </div>
+            </div>  
+ </div>

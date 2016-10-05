@@ -3,7 +3,11 @@
 if (isset($_GET['page'])) {
             switch ($_GET['page']) {
                 case sha1('main'):
-                    include "main.php";
+                    if($user_fname ==""){
+                        include "edit_profile.php";
+                    }else{
+                        include "main.php";
+                    }
                     break;
                 
                 case sha1('profile'):
@@ -87,6 +91,10 @@ if (isset($_GET['page'])) {
     }
     
 } else {
-    include "main.php";
+        if($user_fname == ""){
+             include "edit_profile.php";
+        }else{
+            include "main.php";
+        }
 }
 ?>
