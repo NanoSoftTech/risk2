@@ -1,4 +1,10 @@
 UPDATE NOTE
+- update 06102016 13:53 
+    FIX_1 update header name
+
+- update 05102016 19:01 
+    FIX_1 update main page show risk for user
+
 - update 05102016 18:52 
     FIX_1 update main page user && login
 

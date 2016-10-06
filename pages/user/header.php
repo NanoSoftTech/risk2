@@ -90,7 +90,7 @@ if(!isset($_SESSION['username'])){
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="?page=<?php echo sha1('main')?>">ระบบบันทึกความเสี่ยง USER [ <?php echo $user_fname; ?>]</a>
+                <a class="navbar-brand" href="?page=<?php echo sha1('main')?>">ระบบบันทึกความเสี่ยง USER [ <?php echo $user_fname; ?>] <?php echo $func->getLast('sys_hospital','hos_name','1');?></a>
             </div>
             <!-- /.navbar-header -->
 

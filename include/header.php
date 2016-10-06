@@ -81,7 +81,7 @@ include_once "../models/func_class.php";
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="?page=<?php echo sha1('main')?>">ระบบบันทึกความเสี่ยง</a>
+                <a class="navbar-brand" href="?page=<?php echo sha1('main')?>">ระบบบันทึกความเสี่ยง <?php echo $func->getLast('sys_hospital','hos_name','1');?></a>
             </div>
             <!-- /.navbar-header -->
 
