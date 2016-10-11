@@ -6,7 +6,7 @@
                 <!-- /.col-lg-12 -->
             </div>
 <div class="row">
-    <div class="col-lg-12"> 
+    <div class="col-lg-12">
                     <div class="panel panel-default">
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -16,7 +16,7 @@
                                     <th class="center">หัวข้อ</th>
                                     <th class="center">หมวด</th>
                                     <th class="center">เรื่อง</th>
-                                    <th class="center">ระดับ</th>
+                                    <th class="center">แจ้งถึงฝ่าย</th>
                                     <th class="center">สถานะ</th>
                                     <th class="center">VIEW</th>
                                     <th class="center">CHK</th>
@@ -42,7 +42,7 @@
                             <td>$record[risk_name]</td>
                             <td>$record[cat_name]</td>
                             <td>$record[csub_name]</td>
-                            <td>$record[lv_code]</td>
+                            <td>$record[dsub_name]</td>
                             <td>$record[sta_name]</td>
                             <td align='center'><a href='?page=".sha1('view_risk')."&getid=$record[risk_id] '><i class='fa fa-search fa-fw'></i></a></td>
                             <td align='center'><a href='?page=".sha1('edit_man_risk')."&getid=$record[risk_id] ' onclick='return checkUpdate()'><i class='fa fa-wrench fa-fw'></i></a></td>
@@ -57,7 +57,5 @@
                 </div>
                     <!-- /.table-responsive -->
     </div>
-            
+
 </div>
-
-
